@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 250px;
+    gap: 2%;
+}
+
+section>div {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+a {
+    display: block;
+}
+
+h2, nav {
+    padding-left: 60px;
+}
